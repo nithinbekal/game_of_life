@@ -1,0 +1,19 @@
+1322914512
+Cell	/home/nithin/gol/lib/game_of_life/cell.rb	class Cell
+Grid	/home/nithin/gol/lib/game_of_life/grid.rb	class Grid
+alive?	/home/nithin/gol/lib/game_of_life/cell.rb	  def alive?
+cells	/home/nithin/gol/lib/game_of_life/grid.rb	  attr_accessor :width,:height,:cells
+dead?	/home/nithin/gol/lib/game_of_life/cell.rb	  def dead?
+evolve	/home/nithin/gol/lib/game_of_life/grid.rb	  def evolve
+get_neighbours	/home/nithin/gol/lib/game_of_life/grid.rb	  def get_neighbours(cell)
+height	/home/nithin/gol/lib/game_of_life/grid.rb	  attr_accessor :width,:height,:cells
+initialize	/home/nithin/gol/lib/game_of_life/cell.rb	  def initialize(x,y,life=false)
+initialize	/home/nithin/gol/lib/game_of_life/grid.rb	  def initialize(width,height)
+life	/home/nithin/gol/lib/game_of_life/cell.rb	  attr_accessor :x,:y, :neighbours, :life
+neighbours	/home/nithin/gol/lib/game_of_life/cell.rb	  attr_accessor :x,:y, :neighbours, :life
+set_cells_state=	/home/nithin/gol/lib/game_of_life/grid.rb	  def set_cells_state=(states)
+set_neighbours	/home/nithin/gol/lib/game_of_life/grid.rb	  def set_neighbours
+total_cells	/home/nithin/gol/lib/game_of_life/grid.rb	  def total_cells
+width	/home/nithin/gol/lib/game_of_life/grid.rb	  attr_accessor :width,:height,:cells
+x	/home/nithin/gol/lib/game_of_life/cell.rb	  attr_accessor :x,:y, :neighbours, :life
+y	/home/nithin/gol/lib/game_of_life/cell.rb	  attr_accessor :x,:y, :neighbours, :life
